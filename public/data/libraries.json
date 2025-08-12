@@ -1,0 +1,380 @@
+{
+  "categories": [
+    {
+      "id": "ui-components",
+      "name": "UI Components",
+      "description": "Temel UI bileşenleri ve widget'lar",
+      "subcategories": [
+        {
+          "id": "data-grid",
+          "name": "Data Grid & Table",
+          "description": "Veri tabloları ve grid bileşenleri",
+          "libraries": [
+            {
+              "name": "AG Grid",
+              "description": "Advanced Data Grid / Data Table supporting Javascript / React / AngularJS / Web Components",
+              "github": "https://github.com/ag-grid/ag-grid",
+              "demo": "https://www.ag-grid.com/",
+              "docs": "https://www.ag-grid.com/",
+              "npm": "ag-grid-react",
+              "stars": 10500,
+              "lastCommit": "2024-01-15",
+              "tags": ["table", "grid", "enterprise", "sorting", "filtering"]
+            },
+            {
+              "name": "TanStack Table",
+              "description": "Headless UI for building powerful tables & datagrids",
+              "github": "https://github.com/tannerlinsley/react-table",
+              "demo": "https://tanstack.com/table/v8/docs/examples/react/basic",
+              "docs": "https://tanstack.com/table/v8",
+              "npm": "@tanstack/react-table",
+              "stars": 17500,
+              "lastCommit": "2024-01-20",
+              "tags": ["table", "headless", "flexible", "typescript"]
+            },
+            {
+              "name": "MUI X Data Grid",
+              "description": "Fast and customizable data grid with advanced features for power users",
+              "github": "https://github.com/mui/mui-x",
+              "demo": "https://mui.com/x/react-data-grid/",
+              "docs": "https://mui.com/x/react-data-grid/",
+              "npm": "@mui/x-data-grid",
+              "stars": 18500,
+              "lastCommit": "2024-01-18",
+              "tags": ["table", "material-ui", "enterprise", "advanced"]
+            }
+          ]
+        },
+        {
+          "id": "forms",
+          "name": "Form Components",
+          "description": "Form bileşenleri ve validasyon",
+          "libraries": [
+            {
+              "name": "React Hook Form",
+              "description": "React hooks for form validation without the hassle",
+              "github": "https://github.com/react-hook-form/react-hook-form",
+              "demo": "https://react-hook-form.com/",
+              "docs": "https://react-hook-form.com/",
+              "npm": "react-hook-form",
+              "stars": 36500,
+              "lastCommit": "2024-01-19",
+              "tags": ["form", "validation", "hooks", "performance"]
+            },
+            {
+              "name": "Formik",
+              "description": "Build forms without tears and supports Validation in ease",
+              "github": "https://github.com/jaredpalmer/formik",
+              "demo": "https://formik.org/",
+              "docs": "https://formik.org/",
+              "npm": "formik",
+              "stars": 32500,
+              "lastCommit": "2024-01-10",
+              "tags": ["form", "validation", "field-array"]
+            },
+            {
+              "name": "React Final Form",
+              "description": "Subscription-based form state management",
+              "github": "https://github.com/final-form/react-final-form",
+              "demo": "https://final-form.org/react",
+              "docs": "https://final-form.org/react",
+              "npm": "react-final-form",
+              "stars": 7500,
+              "lastCommit": "2024-01-05",
+              "tags": ["form", "subscription", "performance"]
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "name": "Navigation",
+          "description": "Navigasyon ve routing bileşenleri",
+          "libraries": [
+            {
+              "name": "React Router",
+              "description": "A complete routing library for React",
+              "github": "https://github.com/reactjs/react-router",
+              "demo": "https://reactrouter.com/",
+              "docs": "https://reactrouter.com/",
+              "npm": "react-router-dom",
+              "stars": 51500,
+              "lastCommit": "2024-01-20",
+              "tags": ["routing", "navigation", "declarative"]
+            },
+            {
+              "name": "Wouter",
+              "description": "A minimalist-friendly ~1.3KB routing library. Nothing else but hooks",
+              "github": "https://github.com/molefrog/wouter",
+              "demo": "https://wouter.netlify.app/",
+              "docs": "https://github.com/molefrog/wouter",
+              "npm": "wouter",
+              "stars": 4500,
+              "lastCommit": "2024-01-15",
+              "tags": ["routing", "lightweight", "hooks"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ui-frameworks",
+      "name": "UI Frameworks",
+      "description": "Tam özellikli UI framework'leri",
+      "subcategories": [
+        {
+          "id": "material-design",
+          "name": "Material Design",
+          "description": "Google Material Design tabanlı framework'ler",
+          "libraries": [
+            {
+              "name": "Material UI (MUI)",
+              "description": "Full suite of components. Build your own design system, or start with Material Design",
+              "github": "https://github.com/mui/material-ui",
+              "demo": "https://mui.com/",
+              "docs": "https://mui.com/",
+              "npm": "@mui/material",
+              "stars": 89000,
+              "lastCommit": "2024-01-20",
+              "tags": ["material-design", "components", "theme", "enterprise"]
+            },
+            {
+              "name": "React Toolbox",
+              "description": "A set of React components implementing Google's Material Design",
+              "github": "https://github.com/react-toolbox/react-toolbox",
+              "demo": "http://react-toolbox.io/",
+              "docs": "http://react-toolbox.io/",
+              "npm": "react-toolbox",
+              "stars": 4500,
+              "lastCommit": "2023-12-15",
+              "tags": ["material-design", "css-modules"]
+            }
+          ]
+        },
+        {
+          "id": "component-collections",
+          "name": "Component Collections",
+          "description": "Geniş component koleksiyonları",
+          "libraries": [
+            {
+              "name": "Ant Design",
+              "description": "A UI Design Language from China. Individual components available",
+              "github": "https://github.com/ant-design/ant-design",
+              "demo": "https://ant.design/",
+              "docs": "https://ant.design/docs/react/introduce",
+              "npm": "antd",
+              "stars": 87500,
+              "lastCommit": "2024-01-20",
+              "tags": ["enterprise", "components", "design-system"]
+            },
+            {
+              "name": "Chakra UI",
+              "description": "Simple, Modular & Accessible UI Components for your React Applications",
+              "github": "https://github.com/chakra-ui/chakra-ui",
+              "demo": "https://chakra-ui.com/",
+              "docs": "https://chakra-ui.com/",
+              "docs": "https://chakra-ui.com/",
+              "npm": "@chakra-ui/react",
+              "stars": 34500,
+              "lastCommit": "2024-01-20",
+              "tags": ["accessible", "theme", "components"]
+            },
+            {
+              "name": "Mantine",
+              "description": "A fully featured library with 100+ hooks and components with native dark theme support",
+              "github": "https://github.com/mantinedev/mantine",
+              "demo": "https://mantine.dev/",
+              "docs": "https://mantine.dev/",
+              "npm": "@mantine/core",
+              "stars": 21500,
+              "lastCommit": "2024-01-20",
+              "tags": ["dark-theme", "hooks", "components", "modern"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ui-utilities",
+      "name": "UI Utilities",
+      "description": "UI yardımcı araçları ve hook'lar",
+      "subcategories": [
+        {
+          "id": "hooks",
+          "name": "Custom Hooks",
+          "description": "Özel React hook'ları",
+          "libraries": [
+            {
+              "name": "React Hook Form",
+              "description": "React hooks for form validation without the hassle",
+              "github": "https://github.com/react-hook-form/react-hook-form",
+              "demo": "https://react-hook-form.com/",
+              "docs": "https://react-hook-form.com/",
+              "npm": "react-hook-form",
+              "stars": 36500,
+              "lastCommit": "2024-01-19",
+              "tags": ["form", "validation", "hooks", "performance"]
+            },
+            {
+              "name": "React Query",
+              "description": "Powerful asynchronous state management, server-state utilities and data fetching",
+              "github": "https://github.com/TanStack/query",
+              "demo": "https://tanstack.com/query",
+              "docs": "https://tanstack.com/query/latest",
+              "npm": "@tanstack/react-query",
+              "stars": 38500,
+              "lastCommit": "2024-01-20",
+              "tags": ["data-fetching", "caching", "state-management"]
+            }
+          ]
+        },
+        {
+          "id": "animations",
+          "name": "Animations",
+          "description": "Animasyon ve geçiş kütüphaneleri",
+          "libraries": [
+            {
+              "name": "Framer Motion",
+              "description": "An animation and gesture library",
+              "github": "https://github.com/framer/motion",
+              "demo": "https://www.framer.com/motion/",
+              "docs": "https://www.framer.com/motion/",
+              "npm": "framer-motion",
+              "stars": 21500,
+              "lastCommit": "2024-01-20",
+              "tags": ["animation", "gestures", "spring"]
+            },
+            {
+              "name": "React Spring",
+              "description": "A spring physics based animation library",
+              "github": "https://github.com/react-spring/react-spring",
+              "demo": "https://react-spring.dev/",
+              "docs": "https://react-spring.dev/",
+              "npm": "@react-spring/web",
+              "stars": 26500,
+              "lastCommit": "2024-01-18",
+              "tags": ["animation", "physics", "spring"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-management",
+      "name": "State Management",
+      "description": "Durum yönetimi kütüphaneleri",
+      "subcategories": [
+        {
+          "id": "global-state",
+          "name": "Global State",
+          "description": "Global durum yönetimi",
+          "libraries": [
+            {
+              "name": "Redux Toolkit",
+              "description": "The official, opinionated, batteries-included toolset for efficient Redux development",
+              "github": "https://github.com/reduxjs/redux-toolkit",
+              "demo": "https://redux-toolkit.js.org/",
+              "docs": "https://redux-toolkit.js.org/",
+              "npm": "@reduxjs/toolkit",
+              "stars": 10500,
+              "lastCommit": "2024-01-20",
+              "tags": ["state-management", "redux", "toolkit"]
+            },
+            {
+              "name": "Zustand",
+              "description": "A fast bearbones state-management solution using simplified flux principles",
+              "github": "https://github.com/pmndrs/zustand",
+              "demo": "https://zustand.surge.sh/",
+              "docs": "https://github.com/pmndrs/zustand",
+              "npm": "zustand",
+              "stars": 34500,
+              "lastCommit": "2024-01-19",
+              "tags": ["state-management", "lightweight", "hooks"]
+            },
+            {
+              "name": "Jotai",
+              "description": "Primitive and flexible state management for React",
+              "github": "https://github.com/pmndrs/jotai",
+              "demo": "https://jotai.org/",
+              "docs": "https://jotai.org/",
+              "npm": "jotai",
+              "stars": 14500,
+              "lastCommit": "2024-01-20",
+              "tags": ["state-management", "atoms", "lightweight"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "development-tools",
+      "name": "Development Tools",
+      "description": "Geliştirme araçları ve yardımcılar",
+      "subcategories": [
+        {
+          "id": "testing",
+          "name": "Testing",
+          "description": "Test kütüphaneleri ve araçları",
+          "libraries": [
+            {
+              "name": "React Testing Library",
+              "description": "Simple and complete testing utilities that encourage good testing practices",
+              "github": "https://github.com/testing-library/react-testing-library",
+              "demo": "https://testing-library.com/",
+              "docs": "https://testing-library.com/",
+              "npm": "@testing-library/react",
+              "stars": 18500,
+              "lastCommit": "2024-01-20",
+              "tags": ["testing", "accessibility", "best-practices"]
+            },
+            {
+              "name": "Jest",
+              "description": "Painless JavaScript Testing",
+              "github": "https://github.com/facebook/jest",
+              "demo": "https://jestjs.io/",
+              "docs": "https://jestjs.io/",
+              "npm": "jest",
+              "stars": 42500,
+              "lastCommit": "2024-01-20",
+              "tags": ["testing", "framework", "facebook"]
+            }
+          ]
+        },
+        {
+          "id": "linting",
+          "name": "Linting & Formatting",
+          "description": "Kod kalitesi araçları",
+          "libraries": [
+            {
+              "name": "ESLint",
+              "description": "Find and fix problems in your JavaScript code",
+              "github": "https://github.com/eslint/eslint",
+              "demo": "https://eslint.org/",
+              "docs": "https://eslint.org/",
+              "npm": "eslint",
+              "stars": 23500,
+              "lastCommit": "2024-01-20",
+              "tags": ["linting", "javascript", "code-quality"]
+            },
+            {
+              "name": "Prettier",
+              "description": "An opinionated code formatter",
+              "github": "https://github.com/prettier/prettier",
+              "demo": "https://prettier.io/",
+              "docs": "https://prettier.io/",
+              "npm": "prettier",
+              "stars": 48500,
+              "lastCommit": "2024-01-20",
+              "tags": ["formatting", "code-style", "opinionated"]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "totalLibraries": 25,
+    "totalCategories": 5,
+    "totalSubcategories": 12,
+    "lastUpdated": "2024-01-20"
+  }
+}
