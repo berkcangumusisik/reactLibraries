@@ -1,0 +1,38 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="icon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60A5FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <circle cx="16" cy="16" r="16" fill="url(#bg)"/>
+  
+  <!-- React atom symbol -->
+  <circle cx="16" cy="16" r="3" fill="url(#icon)"/>
+  
+  <!-- Electron orbits -->
+  <ellipse cx="16" cy="16" rx="12" ry="6" fill="none" stroke="url(#icon)" stroke-width="1.5" opacity="0.8" transform="rotate(0 16 16)"/>
+  <ellipse cx="16" cy="16" rx="12" ry="6" fill="none" stroke="url(#icon)" stroke-width="1.5" opacity="0.6" transform="rotate(60 16 16)"/>
+  <ellipse cx="16" cy="16" rx="12" ry="6" fill="none" stroke="url(#icon)" stroke-width="1.5" opacity="0.4" transform="rotate(120 16 16)"/>
+  
+  <!-- Small electron dots -->
+  <circle cx="28" cy="16" r="1.5" fill="url(#icon)"/>
+  <circle cx="22" cy="8" r="1.5" fill="url(#icon)"/>
+  <circle cx="22" cy="24" r="1.5" fill="url(#icon)"/>
+  <circle cx="10" cy="8" r="1.5" fill="url(#icon)"/>
+  <circle cx="10" cy="24" r="1.5" fill="url(#icon)"/>
+  <circle cx="4" cy="16" r="1.5" fill="url(#icon)"/>
+  
+  <!-- Library book icon overlay -->
+  <rect x="12" y="18" width="8" height="6" rx="1" fill="url(#icon)" opacity="0.9"/>
+  <line x1="14" y1="20" x2="18" y2="20" stroke="#1E40AF" stroke-width="0.5"/>
+  <line x1="14" y1="21.5" x2="18" y2="21.5" stroke="#1E40AF" stroke-width="0.5"/>
+  <line x1="14" y1="23" x2="17" y2="23" stroke="#1E40AF" stroke-width="0.5"/>
+</svg>

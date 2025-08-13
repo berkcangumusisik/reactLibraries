@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -7,7 +8,7 @@ export const metadata: Metadata = {
   keywords: "React, React Native, UI Components, UI Framework, JavaScript, TypeScript, Frontend, Web Development",
   authors: [{ name: "React Libraries Team" }],
   icons: {
-    icon: '/favicon.ico',
+    icon: '/favicon.svg',
   },
   openGraph: {
     title: "🚀 React Kütüphaneleri",
@@ -17,6 +18,8 @@ export const metadata: Metadata = {
   },
 };
 
+const inter = Inter({ subsets: ["latin"], display: "swap" });
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -24,10 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="tr">
-      <head>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.17/dist/tailwind.min.css" />
-      </head>
-      <body className="antialiased">{children}</body>
+      <body className={`${inter.className} antialiased selection:bg-sky-700/40 selection:text-white`}>{children}</body>
     </html>
   );
 }
