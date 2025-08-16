@@ -2,6 +2,7 @@
 
 React ekosistemindeki en iyi component, UI framework ve kütüphaneleri kategorize eden, modern ve responsive tasarıma sahip açık kaynak proje.
 
+
 ## ✨ Özellikler
 
 - 🎯 **Kategorize Edilmiş**: UI Components, UI Frameworks, State Management, Development Tools gibi ana kategoriler
